@@ -206,7 +206,7 @@ public class SwiftManageCalendarEventsPlugin: NSObject, FlutterPlugin {
 
             return getEvents(predicate: predicate)
         }
-        return "[]";
+        return "[]"
     }
 
     private func getEventsByDateRange(calendarId: String, startDate: Int64, endDate: Int64) -> String? {
@@ -221,7 +221,7 @@ public class SwiftManageCalendarEventsPlugin: NSObject, FlutterPlugin {
 
             return getEvents(predicate: predicate)
         }
-        return "[]";
+        return "[]"
     }
 
     private func getEvents(predicate: NSPredicate) -> String? {
