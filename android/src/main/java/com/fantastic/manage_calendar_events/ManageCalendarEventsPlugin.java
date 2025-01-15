@@ -40,7 +40,7 @@ public class ManageCalendarEventsPlugin implements FlutterPlugin, ActivityAware,
     private static void setup(final BinaryMessenger messenger,
             final Application application,
             final Activity activity,
-            final ActivityPluginBinding activityBinding)) {
+            final ActivityPluginBinding activityBinding) {
         this.activity = activity;
         this.application = application;
         this.delegate = new FilePickerDelegate(activity);
